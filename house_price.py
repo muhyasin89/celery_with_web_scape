@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 import pandas as pd
 
-
 def get_house_price():
     url = "http://www.olx.co.id/depok-kota_g4000024/dijual-rumah-apartemen_c5158?filter=type_eq_rumah"
     response = get(url)

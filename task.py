@@ -24,3 +24,9 @@ class BaseTask(app.Task):
     base=BaseTask)
 def add(self):
     get_house_price()
+
+# celery task
+# get_page -> as constructor == priority (url)
+# get data = general
+
+# write to xlx
